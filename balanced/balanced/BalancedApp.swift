@@ -1,9 +1,9 @@
 //
-//  Aktueller_KontostandApp.swift
-//  Aktueller_Kontostand
+//  BalancedApp.swift
+//
 //
 //  Created by Patrick Bien on 23.01.22.
-//
+//  powered by codingstudios
 
 import SwiftUI
 
