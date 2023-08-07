@@ -1,2 +1,2 @@
 # balanced
-Money manager
+easy to use: **Money manager**
