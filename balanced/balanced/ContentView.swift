@@ -56,7 +56,7 @@ struct ContentView: View {
             
             
             HStack{
-                TextField("Preis +/- €",value: $betrag, formatter: formatter)
+                TextField("Amount +/- €",value: $betrag, formatter: formatter)
                     .padding(.leading, 1.0)
                 Image(systemName: "plus.square")
                     .foregroundColor(Color.green.opacity(0.5))
@@ -64,7 +64,7 @@ struct ContentView: View {
                 
                 
                 
-                Button("hinzufügen") {
+                Button("add") {
                     einzahlen(euro: Double(betrag))
                     
                 }
@@ -79,14 +79,14 @@ struct ContentView: View {
 //                .tint(abziehenButtonColor)
                 
                 
-                Button ("abziehen") {
+                Button ("withdraw") {
                     auszahlen(euro: Double(betrag))
                 }
                 
                     .foregroundColor(.white)
                     .buttonBorderShape(.roundedRectangle(radius: 10))
                     .buttonBorderShape(.capsule)
-                    .buttonStyle(.bordered)
+                    .buttonStyle(GrowingButton())
                     .tint(abziehenButtonColor)
                 
                     
@@ -108,7 +108,7 @@ struct ContentView: View {
                     .foregroundColor(.green.opacity(0.6))
                     
                 
-                Button("Der Kontostand beträgt:"){}
+                Button("The account balance is:"){}
                 .buttonStyle(.bordered)
                 .tint(Color.green)
                 .foregroundColor(.white)
@@ -122,10 +122,10 @@ struct ContentView: View {
             
             }
             
-            Text("Der aktuelle Kontostand beträgt: \(formatter.string(from:NSNumber(value:bank.saldo))!)")
+            Text(" \(formatter.string(from:NSNumber(value:bank.saldo))!)")
                 .foregroundColor(ausgabeTextColor)
             
-            TextField("(Hier den Zweck eingeben)", text: $zweck) {
+            TextField("(State the purpose here)", text: $zweck) {
                 
             }
             
