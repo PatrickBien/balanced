@@ -1,4 +1,4 @@
-# balanced # : Master Your Money with Ease!
+# balanced : Master Your Money with Ease!
 
 Introducing "**balanced**"
 
