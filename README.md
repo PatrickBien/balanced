@@ -2,7 +2,7 @@
 
 ## Introducing "**balanced**"
 
-### Still under constructions! Updates coming soon!
+### Still under constructions! Updates are underway!
 
 The intuitive pocket money manager designed with the modern teen in mind. Whether you're saving for that special purchase, or noting down money you spent on the go, "*balanced*" offers a sleek Swift UI experience to ensure every cent counts. 
 
