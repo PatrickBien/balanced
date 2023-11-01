@@ -8,3 +8,4 @@ The intuitive pocket money manager designed with the modern teen in mind. Whethe
 
 Dive into effortless income and expenditure logs and have a simple overview about your financial situation. With "*balanced*", handling money is not just about numbers; it's about achieving your dreams, one coin at a time.
 
+The entire application is created by *Patrick Bien*, member and founder of [codingstudios](https://codingstudios.click).
