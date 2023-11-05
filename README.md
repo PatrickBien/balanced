@@ -1,6 +1,6 @@
 # balanced : Master Your Money with Ease!
 
-## Introducing "**balanced**"
+## Introducing ***"**balanced**"***
 
 ### Still under constructions! ***Updates are underway!***
 
