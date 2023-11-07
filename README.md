@@ -12,6 +12,6 @@ Dive into effortless income and expenditure logs and have a simple overview abou
 > The entire application is created by *Patrick Bien*, member and founder of [codingstudios](https://codingstudios.click).
 
 > [!NOTE]
-> The first commit in this repository was created on June log<sub>3</sub>(847.288.609.443), 2023
+> The first commit in this repository was created on **June log<sub>3</sub>(847.288.609.443), 2023**
 
 
